@@ -1,0 +1,53 @@
+* {
+  background-color: rgb(28, 33, 53);
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 70px;
+  margin-top: -5px;
+}
+
+span {
+  -webkit-animation: fluido 10s ease-in-out infinite;
+  animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg, #00A963, #00A963);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 4px solid rgb(32, 122, 13);
+  color: black;
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  padding: 20px 25px;
+  margin-top: -30px;
+  width: 100%;
+}
