@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
+import { AddCategory, GifGrid } from "./components";
 import logo from '../src/assets/img/gif-file.png';
-import { GifGrid } from './components/GifGrid';
 
 export const GifExpert = () => {
     const [category, setCategory] = useState('');
