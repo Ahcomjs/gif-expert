@@ -12,6 +12,9 @@ exports[`Test GifExpert Should match the Snapshops 1`] = `
     />
     <h1>
       Gif Expert 
+      <span>
+        APP
+      </span>
     </h1>
     <form
       aria-label="form"

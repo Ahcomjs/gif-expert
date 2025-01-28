@@ -2,6 +2,7 @@ import { useState } from "react"
 import { PropTypes } from 'prop-types';
 
 export const AddCategory = ({ onNewCategory }) => {
+  
     const [inputValue, setInputValue] = useState('');
 
     const onInputChange = ({ target }) => {
@@ -19,14 +20,13 @@ export const AddCategory = ({ onNewCategory }) => {
         <form onSubmit={onSubmit} aria-label="form">
             <input
                 type="text"
-                placeholder="Write a category or tags and press enter..."
+                placeholder="Write a name and press enter..."
                 value={inputValue}
                 onChange={onInputChange}
             />
         </form>
-    );
-};
-
+    )
+}
 
 
 AddCategory.propTypes = {

@@ -13,7 +13,7 @@ export const GifExpert = () => {
     return (
         <div className="container">
             <img src={logo} alt="logo" className="logo" />
-            <h1>Gif Expert</h1>
+            <h1>Gif Expert <span>APP</span></h1>
 
             <AddCategory onNewCategory={onAddCategory} />
 
